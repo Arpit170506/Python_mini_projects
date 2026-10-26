@@ -1,0 +1,333 @@
+{
+    "DSA": [
+        {
+            "question": "What is the time complexity of binary search?",
+            "options": [
+                "O(n)",
+                "O(log n)",
+                "O(n log n)",
+                "O(1)"
+            ],
+            "answer": "O(log n)"
+        },
+        {
+            "question": "Which data structure follows LIFO?",
+            "options": [
+                "Queue",
+                "Stack",
+                "Tree",
+                "Graph"
+            ],
+            "answer": "Stack"
+        },
+        {
+            "question": "Which data structure follows FIFO?",
+            "options": [
+                "Stack",
+                "Queue",
+                "Tree",
+                "Graph"
+            ],
+            "answer": "Queue"
+        },
+        {
+            "question": "What is the worst-case time complexity of Quick Sort?",
+            "options": [
+                "O(n)",
+                "O(log n)",
+                "O(n log n)",
+                "O(n^2)"
+            ],
+            "answer": "O(n^2)"
+        },
+        {
+            "question": "Which traversal of a Binary Search Tree gives sorted order?",
+            "options": [
+                "Preorder",
+                "Postorder",
+                "Inorder",
+                "Level Order"
+            ],
+            "answer": "Inorder"
+        },
+        {
+            "question": "Which data structure is commonly used in BFS?",
+            "options": [
+                "Stack",
+                "Queue",
+                "Heap",
+                "Hash Table"
+            ],
+            "answer": "Queue"
+        },
+        {
+            "question": "Which data structure is commonly used in DFS?",
+            "options": [
+                "Queue",
+                "Stack",
+                "Heap",
+                "Array"
+            ],
+            "answer": "Stack"
+        },
+        {
+            "question": "What is the average time complexity of searching in a hash table?",
+            "options": [
+                "O(n)",
+                "O(log n)",
+                "O(1)",
+                "O(n log n)"
+            ],
+            "answer": "O(1)"
+        }
+    ],
+
+    "DBMS": [
+        {
+            "question": "Which key uniquely identifies a record?",
+            "options": [
+                "Foreign Key",
+                "Primary Key",
+                "Candidate Key",
+                "Composite Key"
+            ],
+            "answer": "Primary Key"
+        },
+        {
+            "question": "What does SQL stand for?",
+            "options": [
+                "Structured Query Language",
+                "Simple Query Language",
+                "System Query Language",
+                "Sequential Query Language"
+            ],
+            "answer": "Structured Query Language"
+        },
+        {
+            "question": "Which command is used to remove a table?",
+            "options": [
+                "DELETE",
+                "REMOVE",
+                "DROP",
+                "CLEAR"
+            ],
+            "answer": "DROP"
+        },
+        {
+            "question": "Which normal form removes partial dependency?",
+            "options": [
+                "1NF",
+                "2NF",
+                "3NF",
+                "BCNF"
+            ],
+            "answer": "2NF"
+        },
+        {
+            "question": "Which SQL command is used to retrieve data?",
+            "options": [
+                "GET",
+                "SELECT",
+                "FETCH",
+                "READ"
+            ],
+            "answer": "SELECT"
+        },
+        {
+            "question": "A foreign key is used to establish what?",
+            "options": [
+                "Security",
+                "Relationship between tables",
+                "Sorting",
+                "Encryption"
+            ],
+            "answer": "Relationship between tables"
+        },
+        {
+            "question": "Which property of a transaction ensures all-or-nothing execution?",
+            "options": [
+                "Consistency",
+                "Isolation",
+                "Atomicity",
+                "Durability"
+            ],
+            "answer": "Atomicity"
+        },
+        {
+            "question": "Which SQL clause is used to filter grouped records?",
+            "options": [
+                "WHERE",
+                "GROUP BY",
+                "HAVING",
+                "ORDER BY"
+            ],
+            "answer": "HAVING"
+        }
+    ],
+
+    "Python": [
+        {
+            "question": "Which keyword is used to define a function?",
+            "options": [
+                "function",
+                "def",
+                "define",
+                "func"
+            ],
+            "answer": "def"
+        },
+        {
+            "question": "Which data type is mutable?",
+            "options": [
+                "Tuple",
+                "String",
+                "List",
+                "Integer"
+            ],
+            "answer": "List"
+        },
+        {
+            "question": "Which symbol is used for comments in Python?",
+            "options": [
+                "//",
+                "/*",
+                "#",
+                "--"
+            ],
+            "answer": "#"
+        },
+        {
+            "question": "Which keyword is used to create a class?",
+            "options": [
+                "object",
+                "class",
+                "struct",
+                "define"
+            ],
+            "answer": "class"
+        },
+        {
+            "question": "What is the output of len([1, 2, 3])?",
+            "options": [
+                "2",
+                "3",
+                "4",
+                "1"
+            ],
+            "answer": "3"
+        },
+        {
+            "question": "Which data structure stores key-value pairs?",
+            "options": [
+                "List",
+                "Tuple",
+                "Dictionary",
+                "Set"
+            ],
+            "answer": "Dictionary"
+        },
+        {
+            "question": "Which keyword is used to handle exceptions?",
+            "options": [
+                "catch",
+                "except",
+                "error",
+                "handle"
+            ],
+            "answer": "except"
+        },
+        {
+            "question": "Which function is used to get input from the user?",
+            "options": [
+                "scan()",
+                "read()",
+                "input()",
+                "get()"
+            ],
+            "answer": "input()"
+        }
+    ],
+
+    "System Design": [
+        {
+            "question": "What is the primary purpose of a load balancer?",
+            "options": [
+                "Store data",
+                "Distribute traffic",
+                "Compile code",
+                "Encrypt data"
+            ],
+            "answer": "Distribute traffic"
+        },
+        {
+            "question": "Which technology is commonly used for caching?",
+            "options": [
+                "Redis",
+                "HTML",
+                "Git",
+                "CSS"
+            ],
+            "answer": "Redis"
+        },
+        {
+            "question": "What does horizontal scaling mean?",
+            "options": [
+                "Increasing CPU of one server",
+                "Adding more servers",
+                "Reducing memory",
+                "Removing servers"
+            ],
+            "answer": "Adding more servers"
+        },
+        {
+            "question": "What is a CDN primarily used for?",
+            "options": [
+                "Database transactions",
+                "Delivering content closer to users",
+                "Writing backend code",
+                "Managing passwords"
+            ],
+            "answer": "Delivering content closer to users"
+        },
+        {
+            "question": "Which database is generally considered NoSQL?",
+            "options": [
+                "PostgreSQL",
+                "MySQL",
+                "MongoDB",
+                "SQLite"
+            ],
+            "answer": "MongoDB"
+        },
+        {
+            "question": "What is database replication?",
+            "options": [
+                "Deleting duplicate data",
+                "Copying data across multiple database servers",
+                "Encrypting a database",
+                "Compressing database files"
+            ],
+            "answer": "Copying data across multiple database servers"
+        },
+        {
+            "question": "What is the purpose of a message queue?",
+            "options": [
+                "Process asynchronous tasks",
+                "Store images permanently",
+                "Compile programs",
+                "Design websites"
+            ],
+            "answer": "Process asynchronous tasks"
+        },
+        {
+            "question": "What does availability mean in system design?",
+            "options": [
+                "System is accessible when needed",
+                "System has low memory",
+                "System has fewer users",
+                "System uses only one server"
+            ],
+            "answer": "System is accessible when needed"
+        }
+    ]
+}
