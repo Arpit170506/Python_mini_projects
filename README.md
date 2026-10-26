@@ -1,234 +1,231 @@
-# Python Mini Projects 🐍
+# 🐍 Python Mini Projects
 
-A collection of beginner-friendly Python projects built to practice programming fundamentals, problem-solving, file handling, automation, and modular application design.
+A collection of Python projects built to practice programming fundamentals, problem-solving, automation, file handling, web scraping, and application development.
 
-The repository contains small projects that gradually explore different concepts through practical implementations.
+The repository starts with small beginner projects and gradually moves toward more structured, modular applications.
 
 ---
 
 ## 📂 Projects
 
-| Project | Description | Concepts |
-|---|---|---|
-| 🔐 **Password Generator** | Generates secure random passwords based on user requirements. | Randomization, Strings, Functions |
-| 🎲 **Dice Roller** | Simulates rolling one or more dice. | Randomization, Loops, User Input |
-| 💰 **Expense Tracker** | Tracks and manages personal expenses through a simple Python interface. | File Handling, Data Structures, Functions |
-| 💬 **Quote Extractor** | Extracts quotes from web pages and displays them. | Web Scraping, Requests, HTML Parsing |
-| 🔢 **Number Guessing Game** | A game where the user attempts to guess a randomly generated number. | Randomization, Loops, Conditional Logic |
-| 🧠 **Quiz Application** | A modular console-based quiz system with authentication, randomized questions, categories, timer, and results. | JSON, Modules, Randomization, Threading, Authentication |
+### 🔐 Password Generator
+
+A simple password generator that creates random passwords based on user-defined requirements.
+
+**Concepts:**
+- Randomization
+- Strings
+- User input
+- Functions
 
 ---
 
-# 🧠 Quiz Application
+### 🎲 Dice Roller
 
-A modular terminal-based quiz application designed to simulate a simple online quiz system directly from the command line.
+A command-line dice rolling simulator that allows users to roll dice and generate random results.
 
-### Features
-
-- 👤 User registration
-- 🔑 User login
-- 📋 Profile management
-- ✏️ Update profile
-- 🧠 Multiple quiz categories
-- 🎲 Random question selection
-- 🔀 Randomized answer options
-- ⏱️ 30-second timer per question
-- ⚠️ Automatic timeout
-- 📊 Score calculation
-- ✅ Pass/Fail evaluation
-- 📈 Persistent quiz results
-- 📚 JSON-based question database
-
-### Quiz Categories
-
-The application currently provides:
-
-1. DSA
-2. DBMS
-3. Python
-4. System Design
-
-### Quiz Flow
-
-```text
-                    Quiz Application
-                           │
-            ┌──────────────┴──────────────┐
-            │                             │
-       Registration                     Login
-                                          │
-                                   ┌──────┴──────┐
-                                   │             │
-                                Profile      Update Profile
-                                   │
-                                   └──────┬──────┘
-                                          │
-                                    Attempt Quiz
-                                          │
-                   ┌──────────────┬───────┼──────────────┐
-                   │              │       │              │
-                  DSA           DBMS    Python     System Design
-                   │              │       │              │
-                   └──────────────┴───────┴──────────────┘
-                                          │
-                                   Random Questions
-                                          │
-                                    30 Sec / Question
-                                          │
-                                        Result
-                                          │
-                                       Logout
-```
+**Concepts:**
+- Randomization
+- Loops
+- Conditional logic
+- User input
 
 ---
 
-## 📁 Quiz Application Structure
+### 💰 Expense Tracker
 
-```text
-Quiz_Application/
-│
-├── main.py
-│
-├── data/
-│   └── questions.json
-│
-├── modules/
-│   ├── __init__.py
-│   ├── auth.py
-│   ├── database.py
-│   ├── profile.py
-│   ├── quiz.py
-│   └── results.py
-│
-└── utils/
-    ├── __init__.py
-    └── timer.py
-```
+A command-line application for recording and managing personal expenses.
 
-### Module Responsibilities
-
-**`main.py`**
-
-Entry point of the application. Handles the main menu and routes users to registration, login, or exit.
-
-**`modules/auth.py`**
-
-Handles user registration, authentication, dashboard navigation, and logout.
-
-**`modules/database.py`**
-
-Provides reusable functions for reading and writing JSON data.
-
-**`modules/profile.py`**
-
-Handles profile display and profile updates.
-
-**`modules/quiz.py`**
-
-Contains quiz logic, question randomization, option randomization, answer validation, scoring, and result generation.
-
-**`modules/results.py`**
-
-Retrieves and displays previous quiz attempts for the logged-in user.
-
-**`utils/timer.py`**
-
-Provides the 30-second question timer.
-
-**`data/questions.json`**
-
-Contains the question bank for all supported quiz categories.
-
----
-
-# ⚙️ Technologies Used
-
-- **Python**
-- **JSON**
-- **Python Standard Library**
-- `random`
-- `threading`
+**Concepts:**
 - File handling
-- Modular programming
-
-No external Python packages are required for the current version.
+- Lists and dictionaries
+- Functions
+- User input
+- Data persistence
 
 ---
 
-# 🚀 How to Run
+### 💬 Quote Extractor
 
-### 1. Clone the repository
+A Python program that extracts quotes from web pages.
+
+**Concepts:**
+- Web requests
+- HTML parsing
+- Web scraping
+- Data extraction
+
+---
+
+### 🔢 Number Guessing Game
+
+A simple interactive game where the user attempts to guess a randomly generated number.
+
+**Concepts:**
+- Randomization
+- Loops
+- Conditional statements
+- User input
+
+---
+
+### 🧠 Quiz Application
+
+A modular console-based quiz application with user authentication, multiple subjects, randomized questions, timed questions, and result tracking.
+
+**Features:**
+- User registration and login
+- Profile management
+- DSA, DBMS, Python, and System Design quizzes
+- Random question selection
+- Randomized answer options
+- 30-second timer per question
+- Automatic timeout
+- Score calculation
+- Quiz history
+
+**Concepts:**
+- Modular programming
+- JSON
+- Randomization
+- Threading
+- File handling
+- Authentication
+- Application architecture
+
+---
+
+## 🛠️ Technologies
+
+The projects primarily use the Python standard library and common Python programming concepts.
+
+```text
+Python
+├── Functions
+├── Loops
+├── Conditional Logic
+├── Data Structures
+├── File Handling
+├── JSON
+├── Randomization
+├── Threading
+└── Web Scraping
+```
+
+No single framework or technology stack is required across the repository. Each project is intentionally kept focused on the concepts it is designed to practice.
+
+---
+
+## 📁 Repository Structure
+
+```text
+Python_mini_projects/
+│
+├── dice_roll.py
+├── expense_tracker.py
+├── number_guess_game.py
+├── password_generator.py
+├── quote_extractor.py
+│
+├── Quiz_Application/
+│   ├── main.py
+│   ├── data/
+│   │   └── questions.json
+│   ├── modules/
+│   │   ├── auth.py
+│   │   ├── database.py
+│   │   ├── profile.py
+│   │   ├── quiz.py
+│   │   └── results.py
+│   └── utils/
+│       └── timer.py
+│
+└── README.md
+```
+
+---
+
+## 🚀 Getting Started
+
+### Clone the repository
 
 ```bash
 git clone https://github.com/Arpit170506/Python_mini_projects.git
 ```
 
-### 2. Navigate to the project
+### Navigate to the repository
 
 ```bash
-cd Python_mini_projects/Quiz_Application
+cd Python_mini_projects
 ```
 
-### 3. Run the application
+### Run an individual project
+
+For example:
 
 ```bash
+python dice_roll.py
+```
+
+or:
+
+```bash
+python number_guess_game.py
+```
+
+For the Quiz Application:
+
+```bash
+cd Quiz_Application
 python main.py
 ```
 
 ---
 
-# 🎯 Purpose
+## 🎯 Learning Goals
 
-This repository is primarily a learning project.
+This repository is being developed as a practical way to strengthen Python fundamentals through progressively more structured projects.
 
-The projects are built to practice:
+The main learning areas include:
 
-- Python fundamentals
-- Functions
-- Loops
-- Conditional statements
-- Data structures
-- File handling
-- JSON data storage
-- Randomization
-- Modular programming
-- Basic application architecture
+- Python programming fundamentals
 - Problem-solving
-
-The goal is to gradually move from simple Python scripts toward more structured and modular applications.
-
----
-
-# 🔮 Future Improvements
-
-Possible improvements for the Quiz Application include:
-
-- Password hashing
-- SQLite database
-- Larger question bank
-- Difficulty levels
-- Question categories
-- Leaderboard
-- User statistics
-- Quiz history
-- Admin question management
-- Improved terminal timer
-- Better input validation
-- Automated tests
-- GUI/Web version
+- Data structures
+- Functions and modularity
+- File and data management
+- JSON
+- Randomization
+- Basic application architecture
+- Web scraping
+- Command-line application development
 
 ---
 
-## 📌 Current Status
+## 📈 Project Progress
 
-| Project | Status |
-|---|---|
-| Password Generator | ✅ Complete |
-| Dice Roller | ✅ Complete |
-| Number Guessing Game | ✅ Complete |
-| Quote Extractor | ✅ Complete |
-| Expense Tracker | ✅ Complete |
-| Quiz Application | 🚧 MVP |
+| Project | Level | Status |
+|---|---|---|
+| Password Generator | Beginner | ✅ |
+| Dice Roller | Beginner | ✅ |
+| Number Guessing Game | Beginner | ✅ |
+| Quote Extractor | Beginner | ✅ |
+| Expense Tracker | Beginner | ✅ |
+| Quiz Application | Intermediate | 🚧 MVP |
+
+---
+
+## 🔮 Future Projects
+
+This repository will continue to grow with projects covering areas such as:
+
+- Object-Oriented Programming
+- APIs
+- Database applications
+- Automation
+- Data analysis
+- Algorithms and data structures
+- AI/ML projects
+- More advanced Python applications
 
 ---
 
@@ -238,13 +235,13 @@ Possible improvements for the Quiz Application include:
 
 Computer Science Engineering student specializing in Artificial Intelligence & Machine Learning.
 
-- GitHub: [Arpit170506](https://github.com/Arpit170506)
-- LinkedIn: [Arpit Mishra](https://www.linkedin.com/in/arpit-mishra-283a47307)
+- GitHub: https://github.com/Arpit170506
+- LinkedIn: https://www.linkedin.com/in/arpit-mishra-283a47307
 
 ---
 
-## ⭐ Feedback & Contributions
+## ⭐ About This Repository
 
-This repository is primarily maintained as a personal learning and project portfolio.
+This is a continuously evolving collection of Python projects created for **learning, experimentation, and practical development**.
 
-Suggestions, improvements, and constructive feedback are welcome.
+Projects may be improved, refactored, or expanded as new concepts are learned.
